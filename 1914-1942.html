@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1914-1942 | Entre Guerras y Superpotencias</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon-althistory.svg">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2f2f2; 
+            color: #212529;
+        }
+
+        h1, h2, h3, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #0b1a2a !important; /* Azul militar oscuro */
+            border-bottom: 3px solid #7a0000; /* Rojo borgoña */
+        }
+
+        .period-header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                        url('https://images.unsplash.com/photo-1505672678657-cc7037095e60?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            padding: 80px 0;
+            text-align: center;
+            border-bottom: 5px solid #7a0000;
+        }
+
+        .map-section {
+            background: #e5e5e5;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 50px;
+        }
+
+        .world-map-img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #2c3e50;
+            filter: grayscale(20%) contrast(1.1);
+        }
+
+        .history-card {
+            background: white;
+            border-top: 5px solid #7a0000;
+            margin-bottom: 20px;
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .history-card:hover {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            height: 200px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            width: 100%;
+            padding: 5px;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #0b1a2a;
+            color: #95a5a6;
+            padding: 40px 0;
+        }
+
+        .military-badge {
+            background-color: #7a0000;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CRÓNICAS ALT-HIST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1836-1914.html">1836-1914</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">1914-1942</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1942-1960.html">1942-1960</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1960-1980.html">1960-1980</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1980-presente.html">1980-Presente</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado de Periodo -->
+    <header class="period-header">
+        <div class="container">
+            <h1 class="display-3">1914 - 1942</h1>
+            <p class="lead">El Mundo en llamas y el Silencio del Pacífico</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        
+        <!-- Sección del Mapa Mundial -->
+        <section class="map-section text-center">
+            <h2 class="mb-4">El Escenario de la Gran Guerra y la Preguerra</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <img src="1914-1942.png" alt="Mapa Mundial 1914 Alternativo" class="world-map-img shadow">
+                    <p class="mt-4 text-muted fst-italic">El ascenso de la esfera japonesa y la independencia de Alaska marcan el inicio del fin del orden eurocéntrico tradicional.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Información Clave -->
+        <section class="row g-4 mb-5">
+            <div class="col-md-6">
+                <div class="card history-card shadow-sm p-4">
+                    <div class="military-badge">GLOBAL</div>
+                    <h3>La Gran Guerra (1914-1918)</h3>
+                    <p>EE. UU., Texas y California mantuvieron la neutralidad hasta 1917. Al unirse a los Aliados tras el hundimiento de mercantes por submarinos alemanes, Texas y California se consolidaron como potencias petroleras y auríferas estratégicas para Londres y París.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card history-card shadow-sm p-4">
+                    <div class="military-badge">ÁRTICO</div>
+                    <h3>El Imperio de Alaska</h3>
+                    <p>Tras la Revolución Rusa, el Ejército Blanco se refugia en Alaska. Con el apoyo del Reino Unido, se establece una monarquía constitucional bajo la dinastía Románov en el exilio, convirtiéndose en el bastión monárquico del Nuevo Mundo.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card history-card shadow-sm p-4">
+                    <div class="military-badge">PACÍFICO</div>
+                    <h3>El Silencio de Pearl Harbor</h3>
+                    <p>Sin posesiones en el Pacífico, Estados Unidos no tiene flota estacionada en Hawái. Japón expande su control sobre China y el sudeste asiático sin la interferencia directa de Washington durante los años 30.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card history-card shadow-sm p-4">
+                    <div class="military-badge">ECONOMÍA</div>
+                    <h3>La Gran Depresión</h3>
+                    <p>El colapso de 1929 golpea duramente a Texas y California. Al depender financieramente del Reino Unido y EE. UU., las repúblicas occidentales sufren altas tasas de pobreza, alimentando movimientos nacionalistas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de Imágenes -->
+        <section>
+            <h2 class="text-center mb-5">Archivo Visual: 1914 - 1942</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="pgm-texas-francia-1918.png" alt="Soldados 1917">
+                        <div class="gallery-caption">Soldados Texanos en Francia (1918)</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="linea-pan-los-angeles-1932.png" alt="Depresión">
+                        <div class="gallery-caption">Líneas de pan en Los Ángeles (1932)</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="flota-japonesa-1940.png" alt="Flota Japonesa">
+                        <div class="gallery-caption">Portaaviones de la Armada Imperial (1940)</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="sitka-alaska-1928.png" alt="Alaska Imperial">
+                        <div class="gallery-caption">Puerto de Sitka, Imperio de Alaska (1928)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Crónicas de la Línea Temporal Alternativa - Sección Segunda (Especial 1914-1942)</p>
+            <div class="mt-3">
+                <button class="btn btn-outline-light btn-sm" onclick="location.href='1836-1914.html'">← Periodo Anterior</button>
+                <button class="btn btn-outline-danger btn-sm" onclick="location.href='1942-1960.html'">Siguiente Periodo →</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Efecto de carga suave
+        window.onload = function() {
+            document.querySelector('.container').style.opacity = '1';
+        };
+    </script>
+</body>
+</html>

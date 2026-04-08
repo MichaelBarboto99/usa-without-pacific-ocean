@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1942-1960 | El Amanecer Atómico</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon-althistory.svg">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212; /* Fondo oscuro para la era atómica */
+            color: #e0e0e0;
+        }
+
+        h1, h2, h3, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #000000 !important;
+            border-bottom: 3px solid #ffcc00; /* Amarillo radioactivo/atómico */
+        }
+
+        .period-header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            color: #ffcc00;
+            padding: 100px 0;
+            text-align: center;
+            border-bottom: 5px solid #ffcc00;
+        }
+
+        .map-box {
+            background: #1a1a1a;
+            padding: 30px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+
+        .map-img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #444;
+            filter: grayscale(30%) brightness(0.8);
+        }
+
+        .bloc-card {
+            background: #1e1e1e;
+            border: none;
+            border-top: 4px solid #ffcc00;
+            transition: 0.4s;
+            height: 100%;
+        }
+
+        .bloc-card:hover {
+            background: #252525;
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: sepia(0.2) contrast(1.2);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.8);
+            color: #ffcc00;
+            padding: 10px;
+            font-size: 0.85rem;
+            transform: translateY(100%);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        .badge-tripolar {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            padding: 5px 15px;
+            border-radius: 0;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #000;
+            color: #666;
+            padding: 50px 0;
+        }
+
+        .btn-atomic {
+            background-color: #ffcc00;
+            color: #000;
+            font-weight: 900;
+            border: none;
+            border-radius: 0;
+        }
+
+        .btn-atomic:hover {
+            background-color: #ffdb4d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CRÓNICAS ALT-HIST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1836-1914.html">1836-1914</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1914-1942.html">1914-1942</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">1942-1960</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1960-1980.html">1960-1980</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1980-presente.html">1980-Presente</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="period-header">
+        <div class="container">
+            <h1 class="display-1 fw-bold">1942 - 1960</h1>
+            <p class="lead">El Fin de la Guerra y el Nacimiento del Orden Tripolar</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        
+        <!-- Sección del Mapamundi (Orden Tripolar) -->
+        <section class="map-box text-center">
+            <h2 class="text-warning mb-4">El Mundo Dividido en Tres Bloques (1955)</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <img src="1942-1960.png" alt="Mapa Tripolar" class="map-img shadow-lg">
+                    <p class="mt-4 text-muted"><em>Situación Geopolítica tras la Paz de Tokio: El Imperio Japonés domina el Pacífico, la URSS controla Eurasia y el Eje Anglo-Americano domina el Atlántico.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloques de Poder -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card bloc-card p-4">
+                    <span class="badge bg-primary badge-tripolar">CAPITALISTA</span>
+                    <h3>Bloque Atlántico</h3>
+                    <p>Liderado por el Reino Unido y EE. UU. Tras la destrucción atómica de Berlín en 1945, aseguran Europa Occidental pero se retiran del Pacífico ante el agotamiento bélico.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bloc-card p-4" style="border-top-color: #ff0000;">
+                    <span class="badge bg-danger badge-tripolar">SOCIALISTA</span>
+                    <h3>Bloque Soviético</h3>
+                    <p>La URSS se expande por Europa Oriental. En 1949, logran la bomba atómica gracias al espionaje, equilibrando el poder mundial frente a Londres y Tokio.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bloc-card p-4" style="border-top-color: #ff4400;">
+                    <span class="badge bg-warning text-dark badge-tripolar">FASCISTA PANASIÁTICO</span>
+                    <h3>Imperio del Japón</h3>
+                    <p>Vencedores indiscutibles en el Pacífico. Controlan China, el Sudeste Asiático y las Filipinas. Su arsenal nuclear propio disuade cualquier intento de reconquista aliada.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eventos Destacados -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2 class="text-warning">La Independencia de Oregón</h2>
+                <p>En este periodo, el noroeste del Pacífico (Oregón y Washington) abandona su estatus colonial británico para convertirse en una nación independiente dentro de la Commonwealth, sirviendo como puerto neutral entre el Bloque Atlántico y el Bloque Panasiático.</p>
+                <h2 class="text-warning">Alaska Nuclear</h2>
+                <p>Bajo la Dinastía Románov, Alaska desarrolla su propio programa nuclear defensivo para evitar una invasión soviética, convirtiéndose en el cuarto actor atómico del mundo.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="nuclear-test-alaska-1955.png" class="img-fluid rounded shadow" alt="Pruebas Nucleares">
+            </div>
+        </section>
+
+        <!-- Galería de Imágenes -->
+        <section>
+            <h2 class="text-center text-warning mb-5">Archivo Visual: La Era de la Ansiedad</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="londres-1950.png" alt="Londres">
+                    <div class="gallery-overlay">Londres, la Capital de la Superpotencia Británica</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="tokio-1952.png" alt="Tokio">
+                    <div class="gallery-overlay">Tokio bajo el régimen de partido único (1952)</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="berlin-1945.png" alt="Berlín">
+                    <div class="gallery-overlay">Ruinas de Berlín tras el bombardeo atómico</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="hawai-1958.png" alt="Naves">
+                    <div class="gallery-overlay">Acorazados japoneses patrullando Hawái (1958)</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>CRÓNICAS ALT-HIST | SECCIÓN III: EL DESPERTAR DE LOS GIGANTES</p>
+            <div class="mt-4">
+                <button class="btn btn-outline-warning btn-sm me-2" onclick="location.href='1914-1942.html'">← El Camino a la Guerra</button>
+                <button class="btn btn-atomic btn-sm" onclick="location.href='1960-1980.html'">Hacia la Descolonización →</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Efecto de aparición gradual
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.opacity = '1';
+        });
+    </script>
+</body>
+</html>

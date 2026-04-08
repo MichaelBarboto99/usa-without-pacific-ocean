@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1960-1980 | Revoluciones y el Espacio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Oswald:wght@300;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon-althistory.svg">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5; 
+            color: #1a1a1a;
+        }
+
+        h1, h2, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        h3 {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            color: #d35400; /* Naranja retro años 60/70 */
+        }
+
+        .navbar {
+            background-color: #2c3e50 !important;
+            border-bottom: 3px solid #d35400;
+        }
+
+        .period-header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 90px 0;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .map-section {
+            background: #ffffff;
+            border: 2px solid #ddd;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            margin-bottom: 50px;
+        }
+
+        .map-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            filter: contrast(1.1) brightness(0.9);
+        }
+
+        .feature-box {
+            background: white;
+            border-left: 6px solid #d35400;
+            padding: 25px;
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .feature-box:hover {
+            background: #fff8f4;
+            transform: translateY(-5px);
+        }
+
+        .space-victory {
+            background-color: #1c1c1c;
+            color: #00d4ff;
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid #00d4ff;
+            margin-top: 40px;
+        }
+
+        .gallery-card {
+            border: none;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .gallery-card img {
+            height: 220px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .gallery-card:hover img {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 50px 0;
+            margin-top: 50px;
+        }
+
+        .badge-alt {
+            background-color: #d35400;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CRÓNICAS ALT-HIST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1836-1914.html">1836-1914</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1914-1942.html">1914-1942</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1942-1960.html">1942-1960</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">1960-1980</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1980-presente.html">1980-Presente</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="period-header">
+        <div class="container">
+            <h1 class="display-2 fw-bold">1960 - 1980</h1>
+            <p class="lead">La Primavera de Tokio y la Conquista Roja del Espacio</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        
+        <!-- Sección del Mapamundi (El Mundo en los 70) -->
+        <section class="map-section text-center">
+            <h2 class="mb-4">Mapa de la Descolonización y Nuevas Fronteras</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <img src="1960-1980.png" alt="Mapa 1975" class="map-img">
+                    <p class="mt-4 text-muted"><em>El colapso del Imperio Japonés dio paso a una fragmentación masiva en Asia, mientras la URSS alcanzaba su máxima extensión de influencia.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Puntos Clave de la Época -->
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="feature-box">
+                    <span class="badge badge-alt mb-2">JAPÓN</span>
+                    <h3>La Primavera de Tokio (1960-1965)</h3>
+                    <p>Las masivas protestas estudiantiles y el autogolpe del Príncipe Higashikuni terminan con la dictadura militar. Japón inicia una transición democrática milagrosa, convirtiéndose en la segunda potencia económica mundial para 1972.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-box">
+                    <span class="badge badge-alt mb-2">COREA</span>
+                    <h3>La Guerra Civil Coreana (1966-1969)</h3>
+                    <p>Tras la retirada japonesa, la península estalla en un conflicto ideológico. El resultado es la división permanente: el Sur capitalista (aliado de EE. UU. y Japón) y el Norte socialista (aliado de la URSS).</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-box">
+                    <span class="badge badge-alt mb-2">CHINA</span>
+                    <h3>El Gran Cisma Socialista</h3>
+                    <p>China se independiza de Japón en 1965. En 1977, tras una breve alianza con Moscú, la República Popular China rompe relaciones con la URSS, creando un cuarto polo de poder nuclear y político.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-box">
+                    <span class="badge badge-alt mb-2">AMÉRICA</span>
+                    <h3>Estabilidad en Nueva Granada</h3>
+                    <p>La República de la Nueva Granada evita los golpes de estado de nuestra realidad, gestionando el Canal de Panamá de forma soberana y actuando como contrapeso diplomático a los Estados Unidos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Especial: Carrera Espacial -->
+        <div class="space-victory text-center">
+            <h2 class="mb-3">🚩 Victoria Soviética en la Luna</h2>
+            <p class="lead">En esta realidad, la Unión Soviética gana la Carrera Espacial. El primer hombre en la Luna es un cosmonauta soviético, consolidando la superioridad tecnológica del Bloque Socialista durante décadas.</p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <img src="alunizaje-sovietico-1969.png" class="img-fluid rounded border border-info" alt="Cosmonauta">
+                </div>
+            </div>
+        </div>
+
+        <!-- Galería de Imágenes -->
+        <section class="mt-5">
+            <h2 class="text-center mb-5">Galería Histórica: 1960 - 1980</h2>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="card gallery-card">
+                        <img src="tokio-spring-1965.png" alt="Tokio 60s">
+                        <div class="p-2 text-center text-muted small">Tokio en plena democratización</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card gallery-card">
+                        <img src="soviet-parade-1969.png" alt="Ejército Rojo">
+                        <div class="p-2 text-center text-muted small">Desfile soviético, victoria lunar</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card gallery-card">
+                        <img src="canal-panama-1974.png" alt="Panamá">
+                        <div class="p-2 text-center text-muted small">Tránsito soberano en Nueva Granada</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card gallery-card">
+                        <img src="industrial-california-1977.png" alt="California">
+                        <div class="p-2 text-center text-muted small">Crecimiento industrial en California</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>CRÓNICAS ALT-HIST | SECCIÓN IV: EL GRAN CAMBIO</p>
+            <div class="mt-4">
+                <button class="btn btn-outline-warning btn-sm me-2" onclick="location.href='1942-1960.html'">← Era Atómica</button>
+                <button class="btn btn-warning btn-sm" onclick="location.href='1980-presente.html'">Hacia la Era Moderna →</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Pequeño script para el efecto de scroll
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('.period-header');
+            let value = window.scrollY;
+            header.style.backgroundPositionY = value * 0.5 + 'px';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1980-Presente | El Mundo Globalizado</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon-althistory.svg">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #111;
+        }
+
+        h1, h2, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #0d1b2a !important;
+            border-bottom: 3px solid #00a8cc;
+        }
+
+        .period-header {
+            background: linear-gradient(rgba(13, 27, 42, 0.8), rgba(13, 27, 42, 0.8)), 
+                        url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            color: #00a8cc;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .map-section {
+            background: #f8f9fa;
+            border-radius: 20px;
+            padding: 40px;
+            margin-top: -60px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 10;
+        }
+
+        .world-map-modern {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .country-card {
+            border: none;
+            border-radius: 15px;
+            background: #ffffff;
+            transition: 0.3s;
+            height: 100%;
+            border: 1px solid #eee;
+        }
+
+        .country-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #00a8cc;
+        }
+
+        .icon-stat {
+            font-size: 2rem;
+            color: #00a8cc;
+            margin-bottom: 15px;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: filter 0.3s;
+        }
+
+        .gallery-img:hover {
+            filter: brightness(1.2);
+        }
+
+        .superpower-box {
+            background-color: #0d1b2a;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 50px 0;
+        }
+
+        footer {
+            background-color: #0d1b2a;
+            color: white;
+            padding: 60px 0;
+        }
+
+        .accent-text {
+            color: #00a8cc;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CRÓNICAS ALT-HIST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1836-1914.html">1836-1914</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1914-1942.html">1914-1942</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1942-1960.html">1942-1960</a></li>
+                    <li class="nav-item"><a class="nav-link" href="1960-1980.html">1960-1980</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">1980-Presente</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado de Periodo -->
+    <header class="period-header">
+        <div class="container">
+            <h1 class="display-3 fw-bold">1980 - PRESENTE</h1>
+            <p class="lead">El Siglo de la Commonwealth y las Naciones Americanas</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Sección del Mapamundi 2025 -->
+        <section class="map-section text-center">
+            <h2 class="mb-4">El Mapa Geopolítico en 2025</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <img src="1980-presente.png" alt="Mapa Mundial 2025" class="world-map-modern">
+                    <p class="mt-4 text-muted"><em>En esta realidad, América del Norte se mantiene dividida entre potencias económicas independientes, mientras que la Commonwealth lidera el orden global.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Situación de las Naciones Independientes -->
+        <section class="my-5">
+            <h2 class="text-center mb-5">Las Naciones del Nuevo Mundo</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card country-card p-4 text-center">
+                        <div class="icon-stat">🌉</div>
+                        <h3>California</h3>
+                        <p>La 4ª economía mundial. Centro global de tecnología y cine, con un PIB superior a 4.1 billones de dólares y relaciones estratégicas con Asia y México.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card country-card p-4 text-center">
+                        <div class="icon-stat">🛢️</div>
+                        <h3>Texas</h3>
+                        <p>Una potencia energética soberana. Texas es la 9ª economía del mundo, destacando en petróleo, agricultura y una industria aeroespacial independiente.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card country-card p-4 text-center">
+                        <div class="icon-stat">☦️</div>
+                        <h3>Alaska</h3>
+                        <p>El hogar de la Dinastía Románov. La única nación ortodoxa de América, rica en petróleo y sucesora oficial del Imperio Ruso en el exilio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Superpotencia Global -->
+        <section class="superpower-box text-center">
+            <h2 class="mb-3">La Commonwealth Británica</h2>
+            <p class="lead">Tras el colapso soviético en 1991, el Reino Unido y su red de aliados (incluyendo a <strong>Oregón</strong>) emergieron como la principal superpotencia, solo desafiada recientemente por el ascenso de China.</p>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-3">
+                    <span class="accent-text">Londres</span><br>Centro Financiero Mundial
+                </div>
+                <div class="col-md-3">
+                    <span class="accent-text">Oregón</span><br>Miembro Próspero
+                </div>
+                <div class="col-md-3">
+                    <span class="accent-text">Hawái</span><br>Reino Independiente (1966)
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería Moderna -->
+        <section class="mb-5">
+            <h2 class="text-center mb-5">Vistas Modernas (2025)</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <img src="independent-california-2025.png" class="gallery-img" alt="San Francisco">
+                    <p class="text-center mt-2 small">San Francisco, República de California</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="independent-texas-2025.png" class="gallery-img" alt="Austin">
+                    <p class="text-center mt-2 small">Austin, República de Texas</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="superpowerful-london-2025.png" class="gallery-img" alt="Londres">
+                    <p class="text-center mt-2 small">Londres, Capital Global</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="independent-hawaii-2025.png" class="gallery-img" alt="Honolulu">
+                    <p class="text-center mt-2 small">Reino de Hawái, Independiente</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h4>Crónicas de una Realidad Diferente</h4>
+                    <p class="text-muted small">Explorando las ramificaciones de un Pacífico sin fronteras estadounidenses.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <button class="btn btn-outline-info btn-sm mb-2" onclick="location.href='index.html'">Volver al Inicio</button><br>
+                    <small class="text-muted">Desarrollado para Historiadores Alternativos &copy; 2025</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Animación de entrada para las tarjetas
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.country-card');
+            cards.forEach((card, i) => {
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, i * 200);
+            });
+        });
+    </script>
+</body>
+</html>
